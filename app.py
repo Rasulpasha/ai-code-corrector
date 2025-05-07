@@ -8,7 +8,7 @@ class AiCodeReviewer:
         curr_path = os.getcwd()
         cred_path = os.path.abspath(os.path.join(curr_path, "..", ".env_sep/creds.env"))
         load_dotenv(cred_path)
-        self.key = os.getenv("google_api_key")
+        self.key = 'AIzaSyApuGKbz-UdYoynORuJRxPl-MOtJMhTSeQ'
 
     def chatbot(self, human_prompt:str=None, system_instruction:str=None)-> object:
         """
