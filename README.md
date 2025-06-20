@@ -26,7 +26,7 @@
 
 ### Clone the repository
 ```bash
-git clone https://github.com/your-username/ai-code-corrector.git
+git clone https://github.com/Rasulpasha/ai-code-corrector.git
 cd ai-code-corrector
 ````
 
